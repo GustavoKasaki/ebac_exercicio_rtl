@@ -24,7 +24,7 @@ describe('Testes para os comentários', () => {
             }
         })
         fireEvent.click(botao)
-        expect(screen.getByText('Muito bom!')).toBeInTheDocument()
+        expect(screen.getByText('Top!')).toBeInTheDocument()
 
         // verificação
         expect(screen.getAllByTestId('comment')).toHaveLength(2)
